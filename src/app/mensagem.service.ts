@@ -8,7 +8,7 @@ export class MensagemService {
   mensagens: string[] = [];
 
   add(mensagens: string){
-    this.mensagens.push(mensagem);
+    this.mensagens.push(mensagens);
   }
 
   clear(){

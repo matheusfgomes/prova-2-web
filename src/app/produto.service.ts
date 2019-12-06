@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Produto } from './produto';
-import { Produto} from './mock-produtos';
+import { Produto } from './mock-produtos';
 import { Observable, of } from 'rxjs';
 import { MensagemServie} from './mensagem.service';
 

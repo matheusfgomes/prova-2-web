@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Produto} from '../produto';
-import { Produto} from '../mcok-produtos';
+import { Produto} from '../mock-produtos';
 import {ProdutoService} from '../produto.service';
 
 @Component({
@@ -19,7 +19,7 @@ export class ProdutoComponent implements OnInit {
   }
 
   onSelect(hero: Produto): void {
-    this.selectedProduto = produto;
+    this.selectedProduto = produtos;
   }
 
   
