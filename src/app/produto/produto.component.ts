@@ -18,6 +18,10 @@ export class ProdutoComponent implements OnInit {
     this.produtos = this.produtoService.getProdutos().subscribe(produtos => this.produtos = produtos);
   }
 
+  onSelect(hero: Produto): void {
+    this.selectedProduto = produto;
+  }
+
   
 
   ngOnInit() {
