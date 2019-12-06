@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { ProdutoComponent } from './produto/produto.component';
 import { ProdutoService } from './produto.service';
+import { ProdutoMensagensComponent } from './produto-mensagens/produto-mensagens.component';
+import { MensagemService } from './mensagem.service';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, ProdutoComponent ],
+  declarations: [ AppComponent, HelloComponent, ProdutoComponent, ProdutoMensagensComponent ],
   bootstrap:    [ AppComponent ],
-  providers: [ProdutoService]
+  providers: [ProdutoService, MensagemService]
 })
 export class AppModule { }
